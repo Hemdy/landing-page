@@ -1,0 +1,58 @@
+@media screen and (max-width : 956px) {
+    /* banner starts here */
+    .banner{
+        height: auto;
+    }
+    .banner-text{
+        width: auto;
+    }
+    /* banner ends here */
+
+    /* main content starts here */
+    main{
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .section-body{
+
+        padding: 0 1rem;
+    }
+
+    .section-footer{
+        padding: 0;
+        margin: 2rem 0;
+    }
+
+    /* Projects sectin starts here */
+    .cards{
+        flex-direction: column;
+        gap: 5rem;
+
+    }
+
+    /* Projects section ends here */
+
+    /* main content ends here */
+
+    /* footer starts here */
+    footer{
+        flex-direction: column;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+
+    .brands{
+        justify-content: center;
+        margin: 2rem 0;
+
+    }
+
+    .sponsorship-text{ 
+        width: auto;
+    
+    }
+
+    /* footer ends here */
+}

@@ -1,0 +1,228 @@
+/* default style */
+*{
+    padding     :   0;
+    margin      :   0;
+    font-family :   Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+    --brand-color           :   #215049;
+    --text-color            :   #1c1b1bcc;
+    --inverse-text-color    :   white;
+    --border-color          :   #80808022;
+}
+
+/* end default style */
+
+/* header starts here */
+header{
+    display             : flex;
+    flex-direction      : row;
+    justify-content     : space-between;
+    padding             : 1rem;
+    font-size           : 1.5rem;
+    border-bottom       : .5px solid #80808022;
+}
+
+.brand-text{
+    color: var(--brand-color);
+}
+
+.about-brand{
+    padding         :   .5rem 1rem;
+    border          :   1px solid var(--brand-color);
+    border-radius   :   .2rem;
+    text-decoration :   none;
+    color           :   var(--text-color);
+
+}
+
+.about-brand:hover{
+    background-color        : var(--brand-color);
+    color                   : var(--inverse-text-color);
+    transition-duration     : 1s;
+}
+
+/* header ends here */
+
+/* banner starts here  */
+.banner{
+    background-image    : url(/images/banners/IMG_0472.JPG);
+    background-repeat   : no-repeat;
+    background-size     : cover;
+    padding             : 2rem;
+    color               : var(--inverse-text-color);
+    text-align          : center;
+    height              : 30vh;
+}
+
+.banner-text{
+    background-color    : rgba(0, 0, 0, 0.249);
+    padding             : 4rem;
+    width               : 30rem;
+    margin              : 2rem auto;
+}
+/* banner ends here  */
+
+/* main content starts here */
+main{
+    padding     : 2rem 8rem;
+}
+/* about section starts here */
+.section-heading, .section-body, .section-footer{
+    padding    : 1rem 0;
+}
+
+.section-heading{
+    text-align  : center;
+    color       : var(--brand-color);
+}
+
+
+.section-body, .section-footer{
+    padding: 1rem 3rem;
+}
+
+.section-text{
+    margin: 1rem 0;
+    line-height: 1.5rem;
+}
+
+.send-btn{
+    padding             : .8rem;
+    background-color    : var(--brand-color);
+    color               : var(--inverse-text-color);
+    text-decoration     : none;
+    font-size           : .8rem;
+}
+
+.send-btn:hover{
+    background-color    :   var(--inverse-text-color);
+    border              :   1px solid var(--brand-color);
+    color               :   var(--brand-color);
+    transition-duration:    .8s;
+}
+
+/* about section ends here */
+
+/* my project starts here */
+.cards{
+    display: flex;
+    gap: 1rem;
+}
+.card{
+    background-color: var(--border-color);
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+.card-title, .card-footer{
+    padding: 2rem;
+
+}
+
+.card-text{
+    padding: 1rem 2rem;
+}
+
+.card-link{
+    color: var(--brand-color);
+}
+/* my project ends here */
+/* main content ends here */
+
+
+/* footer starts here */
+footer{
+    display: flex;
+    background-color: var(--text-color);
+    color: var(--inverse-text-color);
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.footer-group{
+    padding: 2rem;
+}
+/* sponsorship starts here */
+.brands{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.brand-logo{
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.sponsorship-text{ 
+    color: #aca8a8;
+    width: 25rem;
+
+}
+/* sponsorship ends here */
+/* footer links start here */
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.footer-link{
+    text-decoration: none;
+    color: #aca8a8;
+    padding: .5rem .3rem;
+}
+
+.footer-link:hover{
+    padding: .5rem .3rem;
+    background-color: var(--inverse-text-color);
+    color: var(--brand-color);
+    transition: .8s;
+}
+
+/* footer links ends here */
+
+/* get in touch starts here */
+.social-media{
+    padding: 1rem 0;
+}
+
+.sub-form{
+    display: flex;
+    gap: .5rem;
+    padding: 1rem 0;
+    width: auto;
+}
+
+.input-mail{
+    padding: .5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.sub-btn{
+    background-color: var(--brand-color);
+    color: var(--inverse-text-color);
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+/* get in touch ends here */
+/* footer ends here */
+
+hr{
+    height: .1rem;
+}
+
+.copyright{
+    background-color: var(--text-color);
+    color: #aca8a8;
+    text-align: center;
+    padding: 2rem;
+}
