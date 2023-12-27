@@ -29,6 +29,7 @@ header{
 }
 
 .about-brand{
+    font-size       : small;
     padding         :   .5rem 1rem;
     border          :   1px solid var(--brand-color);
     border-radius   :   .2rem;
@@ -69,6 +70,11 @@ main{
     padding     : 2rem 8rem;
 }
 /* about section starts here */
+
+b{
+    font-weight     : 600;
+    color           : var(--brand-color);
+}
 .section-heading, .section-body, .section-footer{
     padding    : 1rem 0;
 }
@@ -84,8 +90,8 @@ main{
 }
 
 .section-text{
-    margin: 1rem 0;
-    line-height: 1.5rem;
+    margin          : 1rem 0;
+    line-height     : 1.5rem;
 }
 
 .send-btn{
@@ -107,13 +113,13 @@ main{
 
 /* my project starts here */
 .cards{
-    display: flex;
-    gap: 1rem;
+    display : flex;
+    gap     : 1rem;
 }
 .card{
-    background-color: var(--border-color);
-    width: 100%;
-    border-radius: .5rem;
+    background-color    : var(--border-color);
+    width               : 100%;
+    border-radius       : .5rem;
 }
 
 .card-image img{
@@ -138,11 +144,11 @@ main{
 
 /* footer starts here */
 footer{
-    display: flex;
-    background-color: var(--text-color);
-    color: var(--inverse-text-color);
-    padding: 3rem;
-    gap: 1rem;
+    display             : flex;
+    background-color    : var(--text-color);
+    color               : var(--inverse-text-color);
+    padding             : 3rem;
+    gap                 : 1rem;
 }
 
 .footer-group{
@@ -150,40 +156,40 @@ footer{
 }
 /* sponsorship starts here */
 .brands{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-bottom: 2rem;
+    display         : flex;
+    flex-wrap       : wrap;
+    gap             : 2rem;
+    margin-bottom   : 2rem;
 }
 
 .brand-logo{
-    width: 7rem;
-    border-radius: 50%;
+    width           : 7rem;
+    border-radius   : 50%;
 }
 
 .sponsorship-text{ 
-    color: #aca8a8;
-    width: 25rem;
+    color   : #aca8a8;
+    width   : 25rem;
 
 }
 /* sponsorship ends here */
 /* footer links start here */
 .nav-list{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0;
+    display         : flex;
+    flex-direction  : column;
+    margin          : 1rem 0;
 }
 .footer-link{
-    text-decoration: none;
-    color: #aca8a8;
-    padding: .5rem .3rem;
+    text-decoration : none;
+    color           : #aca8a8;
+    padding         : .5rem .3rem;
 }
 
 .footer-link:hover{
-    padding: .5rem .3rem;
-    background-color: var(--inverse-text-color);
-    color: var(--brand-color);
-    transition: .8s;
+    padding             : .5rem .3rem;
+    background-color    : var(--inverse-text-color);
+    color               : var(--brand-color);
+    transition          : .8s;
 }
 
 /* footer links ends here */
@@ -194,24 +200,24 @@ footer{
 }
 
 .sub-form{
-    display: flex;
-    gap: .5rem;
-    padding: 1rem 0;
-    width: auto;
+    display         : flex;
+    gap             : .5rem;
+    padding         : 1rem 0;
+    width           : auto;
 }
 
 .input-mail{
-    padding: .5rem;
-    border: none;
-    border-radius: 2rem;
+    padding         : .5rem;
+    border          : none;
+    border-radius   : 2rem;
 }
 
 .sub-btn{
-    background-color: var(--brand-color);
-    color: var(--inverse-text-color);
-    padding: .5rem 1rem;
-    border: none;
-    border-radius: 2rem;
+    background-color    : var(--brand-color);
+    color               : var(--inverse-text-color);
+    padding             : .5rem 1rem;
+    border              : none;
+    border-radius       : 2rem;
 }
 /* get in touch ends here */
 /* footer ends here */
@@ -221,8 +227,8 @@ hr{
 }
 
 .copyright{
-    background-color: var(--text-color);
-    color: #aca8a8;
-    text-align: center;
-    padding: 2rem;
+    background-color    : var(--text-color);
+    color               : #aca8a8;
+    text-align          : center;
+    padding             : 2rem;
 }

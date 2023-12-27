@@ -10,24 +10,23 @@
 
     /* main content starts here */
     main{
-        padding: 2rem;
-        text-align: center;
+        padding     : 2rem;
+        text-align  : center;
     }
     
     .section-body{
-
         padding: 0 1rem;
     }
 
     .section-footer{
-        padding: 0;
-        margin: 2rem 0;
+        padding     : 0;
+        margin      : 2rem 0;
     }
 
     /* Projects sectin starts here */
     .cards{
-        flex-direction: column;
-        gap: 5rem;
+        flex-direction  : column;
+        gap             : 5rem;
 
     }
 
@@ -37,15 +36,15 @@
 
     /* footer starts here */
     footer{
-        flex-direction: column;
-        text-align: center;
-        padding: 0 2rem;
+        flex-direction  : column;
+        text-align      : center;
+        padding         : 0 2rem;
     }
 
 
     .brands{
-        justify-content: center;
-        margin: 2rem 0;
+        justify-content : center;
+        margin          : 2rem 0;
 
     }
 
