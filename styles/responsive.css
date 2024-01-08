@@ -13,13 +13,17 @@
         padding     : 2rem;
         text-align  : center;
     }
+
+    section{
+        width: auto;
+    }
     
     .section-body{
         padding: 0 1rem;
     }
 
     .section-footer{
-        padding     : 0;
+        padding     : 0 1rem;
         margin      : 2rem 0;
     }
 
@@ -33,6 +37,12 @@
     /* Projects section ends here */
 
     /* main content ends here */
+
+    /* book me section */
+    .cta{
+        width: auto;
+    }
+    /* book me section ends here */
 
     /* footer starts here */
     footer{

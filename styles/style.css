@@ -58,7 +58,8 @@ header{
 }
 
 .banner-text{
-    background-color    : rgba(0, 0, 0, 0.249);
+    text-transform: capitalize;
+    background-color    : rgba(0, 0, 0, 0.5);
     padding             : 4rem;
     width               : 30rem;
     margin              : 2rem auto;
@@ -68,6 +69,13 @@ header{
 /* main content starts here */
 main{
     padding     : 2rem 8rem;
+
+}
+
+section{
+    width       : 900px;
+    margin      : 0 auto;
+    text-align  : justify;
 }
 /* about section starts here */
 
@@ -80,8 +88,10 @@ b{
 }
 
 .section-heading{
-    text-align  : center;
-    color       : var(--brand-color);
+    text-align      : center;
+    text-transform  : capitalize;
+    color           : var(--brand-color);
+    font-size       : 1.5rem;
 }
 
 
@@ -115,17 +125,26 @@ b{
 .cards{
     display : flex;
     gap     : 1rem;
+    text-align: left;
 }
 .card{
     background-color    : var(--border-color);
     width               : 100%;
     border-radius       : .5rem;
+    opacity             : 0.5;
+    filter              : alpha(opacity=50);
 }
+.card:hover{
+    opacity     : 1.0;
+    filter      : alpha(opacity=100); 
+    transition  : 1s ease-in-out;
+    box-shadow  : 2px 5px 20px rgb(146, 146, 146);
+}
+
 
 .card-image img{
     width: 100%;
 }
-
 .card-title, .card-footer{
     padding: 2rem;
 
@@ -139,16 +158,51 @@ b{
     color: var(--brand-color);
 }
 /* my project ends here */
+
+/* book me section */
+
+.book-me{
+    /* background-color    : var(--brand-color ); */
+    /* opacity             : 10px; */
+    /* color               : var(--inverse-text-color); */
+    /* width               : 100%; */
+}
+
+.cta{
+    width       : 40rem;
+    margin      : 0 auto;
+    padding     : 2rem;
+    text-align  : center;
+    line-height : 1.5rem;
+}
+
+.cta-btn{
+    background-color    : var(--inverse-text-color);
+    color               : var(--brand-color);
+    border              : 1px solid var(--brand-color);
+    font-size           : 1rem;
+    margin              : 2rem 0;
+    width               : 50%;
+}
+
+.cta-btn:hover{
+    background-color    : var(--brand-color);
+    color               : var(--inverse-text-color);
+}
+
+/* book me section ends here */
+
 /* main content ends here */
 
 
 /* footer starts here */
 footer{
     display             : flex;
-    background-color    : var(--text-color);
+    background-color    : black;
     color               : var(--inverse-text-color);
     padding             : 3rem;
     gap                 : 1rem;
+    font-size           : small;
 }
 
 .footer-group{
@@ -181,6 +235,7 @@ footer{
 }
 .footer-link{
     text-decoration : none;
+    text-transform  : capitalize;
     color           : #aca8a8;
     padding         : .5rem .3rem;
 }
